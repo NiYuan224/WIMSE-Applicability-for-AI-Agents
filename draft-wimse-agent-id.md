@@ -56,9 +56,9 @@ Trust Domain: a logical grouping of systems that share a common set of security 
 
 Agent: the autonomous software entity running on a device that initiates the credential request. Agents operate independently and are responsible for authenticating themselves and requesting appropriate credentials within a trust domain.
 
-Identity server: A trust entity issuing the agent identity credential, which serves as the root of trust for a trust domain. For simplicity, this document sometimes uses the term of "server" to indicate the identity server.
+Identity Server: A trust entity issuing the agent identity credential, which serves as the root of trust for a trust domain. For simplicity, this document sometimes uses the term of "server" to indicate the identity server.
 
-Identity proxy: an intermediary component on the device that can request, inspect, replace or augment agent identity credentials. It exposes an Agent API locally to agents running on the device. For simplicity, this document sometimes uses the term of "proxy" to indicate the identity proxy.
+Identity Proxy: an intermediary component on the device that can request, inspect, replace or augment agent identity credentials. It exposes an Agent API locally to agents running on the device. For simplicity, this document sometimes uses the term of "proxy" to indicate the identity proxy.
 
 
 # Security Considerations
