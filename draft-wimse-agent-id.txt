@@ -81,21 +81,26 @@ Table of Contents
    The proposed architecture enables the secure acquisition and
    management of agent identity credentials，which established a
    foundation for agent zero-trust access.  Key components include:
+
    Trust Domain: a logical grouping of systems that share a common set
    of security controls and policies.  Agent credentials are issued
-   under the authority of a trust domain.  Agent: the autonomous
-   software entity running on a device that initiates the credential
-   request.  Agents operate independently and are responsible for
-   authenticating themselves and requesting appropriate credentials
-   within a trust domain.  Identity server: A trust entity issuing the
-   agent identity credential, which serves as the root of trust for a
-   trust domain.  For simplicity, this document sometimes uses the term
-   of "server" to indicate the identity server.  Identity proxy: an
-   intermediary component on the device that can request, inspect,
-   replace or augment agent identity credentials.  It exposes an Agent
-   API locally to agents running on the device.  For simplicity, this
-   document sometimes uses the term of "proxy" to indicate the identity
-   proxy.
+   under the authority of a trust domain.
+
+   Agent: the autonomous software entity running on a device that
+   initiates the credential request.  Agents operate independently and
+   are responsible for authenticating themselves and requesting
+   appropriate credentials within a trust domain.
+
+   Identity server: A trust entity issuing the agent identity
+   credential, which serves as the root of trust for a trust domain.
+   For simplicity, this document sometimes uses the term of "server" to
+   indicate the identity server.
+
+   Identity proxy: an intermediary component on the device that can
+   request, inspect, replace or augment agent identity credentials.  It
+   exposes an Agent API locally to agents running on the device.  For
+   simplicity, this document sometimes uses the term of "proxy" to
+   indicate the identity proxy.
 
 3.  Security Considerations
 
